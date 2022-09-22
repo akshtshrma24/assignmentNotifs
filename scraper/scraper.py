@@ -1,9 +1,12 @@
-import time 
+import time
 
 from dataHandler import * 
 from logger import *
 from canvasData import * 
 from constants import * 
+
+
+discordMessage("Test", "Test")
 
 warning(f"Discord Webhook URL set to {DISCORD_WEBHOOK}")
 
