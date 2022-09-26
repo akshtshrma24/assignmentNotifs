@@ -1,5 +1,7 @@
 FROM python:3.10.1-slim-buster
 
+ENV TZ="America/Los_Angeles"
+
 WORKDIR /canvas
 
 EXPOSE 5000
