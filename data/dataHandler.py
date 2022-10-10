@@ -52,7 +52,7 @@ def discordMessage(className, assignmentName):
     }
     data["embeds"] = [
         {
-            "description": f"{assignmentName} is due within 3 make sure you do it.",
+            "description": f"{assignmentName} is due within 3 hours make sure you do it.",
             "title": className}]
     response = requests.post(url, json=data)
     if(response.status_code < 400):
