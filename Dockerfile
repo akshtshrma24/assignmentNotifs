@@ -10,9 +10,9 @@ RUN pip3 install --upgrade pip
 
 RUN pip install requests
 
-COPY /data/* .
-COPY /scraper/* .
-COPY /util/* .
+COPY /data/* ./
+COPY /scraper/* ./
+COPY /util/* ./
 
 #Pinging Google's Public DNS Server
 CMD ["python3", "scraper.py"]
